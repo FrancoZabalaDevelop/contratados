@@ -15,14 +15,12 @@ const FormularioPersonalLandingPage = () => {
   const [pais, setPais] = useState("");
   const [ciudad, setCiudad] = useState("");
     return (
-        <Container maxWidth="xs" >
         <Box sx={{ 
         bgcolor:"#EFEFEF",
         p:4,
         borderRadius:10,
         
         }}>
-        <Grid2>
         <form>
          <br />   
          <FormGroup>
@@ -46,11 +44,8 @@ const FormularioPersonalLandingPage = () => {
         <br />
         <Button type="submit" variant="contained" >Aceptar</Button>
         </FormGroup>
-        </form>     
-        </Grid2>        
-        </Box>       
-        
-        </Container>
+        </form>   
+        </Box>  
     )
 }
 export default FormularioPersonalLandingPage;
