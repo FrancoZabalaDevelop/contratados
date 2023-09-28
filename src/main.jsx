@@ -26,10 +26,11 @@ const theme = createTheme({
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    
+    <HashRouter>
     <ThemeProvider theme={theme}>
     <CssBaseline/>
     <RouterProvider router={router}/>
-    </ThemeProvider>    
+    </ThemeProvider>
+    </HashRouter>    
   </React.StrictMode>,
 )
